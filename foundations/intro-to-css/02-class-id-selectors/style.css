@@ -1,0 +1,19 @@
+.odd,
+.odd.first{
+background-color: pink;
+font-family: verdana , "DejaVu sans", sans-serif;
+
+}
+.even-first{
+color: blue;
+font-size: 36px;
+}
+.odd.first{
+font-size: 24px;
+}
+.even-second{
+background-color: lightgreen;
+font-size: 24px;
+font-weight: bold;
+}
+
