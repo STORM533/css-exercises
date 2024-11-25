@@ -16,13 +16,32 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 10px;
+  padding:20px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+.right-side{
+  flex-shrink: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.upright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+ font-size: large ;
+ font-weight: bold;
+}
 
 .icon {
+  
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
